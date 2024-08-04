@@ -43,9 +43,10 @@ namespace SistemaVenta.BLL.Servicios
                 {
                     throw new TaskCanceledException("El Usuario no existe");
                 }
-                Usuario devolverUsuario =  queryUsuario.Include(rol => rol.IdRolNavigation).First();
+                Usuario devolverUsuario = queryUsuario.Include(rol => rol.IdRolNavigation).First();
 
                 return _mapper.Map<SesionDTO>(devolverUsuario);
+            }
             catch (Exception)
             {
 

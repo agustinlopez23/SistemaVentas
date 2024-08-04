@@ -13,3 +13,4 @@ C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.
 C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net8.0\SistemaVenta.Model.pdb
 C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net8.0\SistemaVenta.DAL.csproj.AssemblyReference.cache
 C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net8.0\SistemaVenta.DAL.csproj.CopyComplete
+C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net8.0\SistemaVenta.DAL.sourcelink.json

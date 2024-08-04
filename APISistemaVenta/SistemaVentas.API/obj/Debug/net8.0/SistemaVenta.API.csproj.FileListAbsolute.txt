@@ -80,3 +80,5 @@ C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVentas
 C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVentas.API\bin\Debug\net8.0\SistemaVenta.DAL.pdb
 C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVentas.API\bin\Debug\net8.0\SistemaVenta.Model.pdb
 C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVentas.API\bin\Debug\net8.0\SistemaVenta.Utility.pdb
+C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVentas.API\obj\Debug\net8.0\SistemaVenta.API.sourcelink.json
+C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVentas.API\bin\Debug\net8.0\AutoMapper.dll

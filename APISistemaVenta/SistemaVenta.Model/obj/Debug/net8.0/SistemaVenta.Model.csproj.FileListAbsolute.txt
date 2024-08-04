@@ -12,3 +12,4 @@ C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.
 C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.Model\obj\Debug\net8.0\SistemaVenta.Model.pdb
 C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.Model\obj\Debug\net8.0\SistemaVenta.Model.genruntimeconfig.cache
 C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.Model\obj\Debug\net8.0\ref\SistemaVenta.Model.dll
+C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.Model\obj\Debug\net8.0\SistemaVenta.Model.sourcelink.json

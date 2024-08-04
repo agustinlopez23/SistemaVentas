@@ -21,3 +21,4 @@ C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.
 C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.IOC\bin\Debug\net8.0\SistemaVenta.Model.pdb
 C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.IOC\obj\Debug\net8.0\SistemaVenta.IOC.csproj.AssemblyReference.cache
 C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.IOC\obj\Debug\net8.0\SistemaVenta.IOC.csproj.CopyComplete
+C:\Users\Saladeestudio\Documents\ProyectoAngularC#\APISistemaVenta\SistemaVenta.IOC\obj\Debug\net8.0\SistemaVenta.IOC.sourcelink.json

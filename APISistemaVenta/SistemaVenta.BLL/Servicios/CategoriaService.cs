@@ -6,12 +6,12 @@ using SistemaVenta.Model;
 
 namespace SistemaVenta.BLL.Servicios
 {
-    public class CatergoriaService :ICategoriaService
+    public class CategoriaService :ICategoriaService
     {
         private readonly IGenericRepository<Categoria> _categoriaRepositorio;
         private readonly IMapper _mapper;
 
-        public CatergoriaService(IGenericRepository<Categoria> categpriaRepositorio, IMapper mapper)
+        public CategoriaService(IGenericRepository<Categoria> categpriaRepositorio, IMapper mapper)
         {
             _categoriaRepositorio = categpriaRepositorio;
             _mapper = mapper;

@@ -19,6 +19,7 @@ namespace SistemaVenta.IOC
             });
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IVentaRepository, VentaRepository>();
+
             services.AddAutoMapper(typeof(AutoMapperProfile));
 
             services.AddScoped<IRolService, RolService>();
@@ -29,6 +30,7 @@ namespace SistemaVenta.IOC
             services.AddScoped<IDashBoardService, DashboardService>();
             services.AddScoped<IMenuService, MenuService>();
 
+            
         }
     }
 }

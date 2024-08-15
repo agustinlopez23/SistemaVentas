@@ -8,9 +8,9 @@ namespace SistemaVenta.DAL.Repositorios
 {
     public class GenericRepository<TModelo> :IGenericRepository<TModelo> where TModelo : class
     {
-        private readonly DbContext _dbContext;
+        private readonly DbventaContext _dbContext;
 
-        public GenericRepository(DbContext dbContext)
+        public GenericRepository(DbventaContext dbContext)
         {
             _dbContext = dbContext;
         }

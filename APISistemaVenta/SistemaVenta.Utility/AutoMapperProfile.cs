@@ -35,13 +35,14 @@ namespace SistemaVenta.Utility
 
             #region Producto
             CreateMap<Producto, ProductoDTO>()
-                .ForMember(destino=>destino.DescripcionCategoria,opt=>opt.MapFrom(origen=>origen.IdCategoriaNavigation.Nombre))
-                .ForMember(destino => destino.Precio, opt => opt.MapFrom(origen => Convert.ToString(origen.Precio.Value,new CultureInfo("es-Es"))))
-                .ForMember(destino => destino.EsActivo, opt => opt.MapFrom(origen => origen.EsActivo == true ? 1 : 0));
+             .ForMember(destino => destino.DescripcionCategoria, opt => opt.MapFrom(origen => origen.IdCategoriaNavigation.Nombre))
+             .ForMember(destino => destino.Precio, opt => opt.MapFrom(origen => Convert.ToString(origen.Precio.Value, new CultureInfo("es-Es"))))
+             .ForMember(destino => destino.EsActivo, opt => opt.MapFrom(origen => origen.EsActivo == true ? 1 : 0));
+
             CreateMap<ProductoDTO, Producto>()
-               .ForMember(destino => destino.IdCategoriaNavigation.Nombre, opt => opt.Ignore())
-               .ForMember(destino => destino.Precio, opt => opt.MapFrom(origen => Convert.ToDecimal(origen.Precio, new CultureInfo("es-Es"))))
-               .ForMember(destino => destino.EsActivo, opt => opt.MapFrom(origen => origen.EsActivo == 1 ? true : false));
+                .ForPath(destino => destino.IdCategoriaNavigation.Nombre, opt => opt.Ignore())
+                .ForMember(destino => destino.Precio, opt => opt.MapFrom(origen => Convert.ToDecimal(origen.Precio, new CultureInfo("es-Es"))))
+                .ForMember(destino => destino.EsActivo, opt => opt.MapFrom(origen => origen.EsActivo == 1 ? true : false));
             #endregion Producto
 
             #region Venta

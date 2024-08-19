@@ -32,4 +32,3 @@ You must replace **SQL\\\\SQLEXPRESS** with the name of your SQL Server. This co
 
 Once the database is created, you can test the API through Swagger by starting the project from Visual Studio or your preferred IDE.
 
-Translated with DeepL.com (free version)
